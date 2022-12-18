@@ -1,0 +1,61 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+
+input#todo_input {
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  padding: 8px;
+}
+
+button.action_button {
+  border: 1px dashed #d1d5db;
+  padding: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #f3f4f6;
+}
+
+button.action_button:hover {
+  border: 1px dashed #9ca3af;
+}
+
+.todo_list {
+  padding: 16px;
+  list-style: none;
+}
+
+.todo_list li {
+  display: flex;
+  align-items: center;
+  padding: 16px 0px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.todo_list li:last-of-type {
+  border-bottom: none;
+}
+
+.todo_list li.done {
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+
+.todo_list li button {
+  margin-left: 16px;
+  border: 1px solid #fca5a5;
+  border-radius: 6px;
+  padding: 4px 8px;
+  background-color: #fee2e2;
+  color: #ef4444;
+  cursor: pointer;
+}
+
+.todo_list li input {
+  margin-right: 8px;
+}
+
+.todo_list li button:hover {
+  background-color: #fecaca;
+  color: #dc2626;
+}
